@@ -1,0 +1,104 @@
+192.168.11.21 local_agent.seller-backend.com
+
+页头使用magician模板
+
+
+1243088683@qq.com
+123456
+zss1243088683
+z123456
+
+
+代理商
+http://75.2.107.202:61621/ 
+用户 qianduan
+密码 2021Powerwin
+
+
+zhao.ss@jiahongnet.com
+z123456
+
+
+https://hyd.shksgyk.com/admin/
+hyd@gmail.com
+freeloop@gmail.com
+
+meinanzi.shopcity.vip
+junlv.he@xshoppy.com          qwer1234
+
+
+https://ruidong.emysale.com/admin/login
+m13391644840@163.com
+123456
+
+
+代理商地址
+https://prod.shopywinwin.com/admin/settings/logistics/customer-logistics/1
+prod@shopywinwin.com
+123456
+
+会员账号
+18126400570@163.com
+q123456
+开发环境
+店铺名称：hyd
+登录地址：https://hyd.shopcity.vip/admin
+登录邮箱：hyd@emysale.com
+登录密码：123456
+
+https://zoro.shopcity.vip/admin
+zhang.ys@jiahongnet.com
+123456
+
+style="background: #F5F5F5;padding: 11px;text-align: left;margin-bottom: 20px;"
+
+测试环境
+店铺名称：hyd
+登录地址：https://hyd.shksgyk.com/admin/
+登录邮箱：hyd@emysale.com
+登录密码：123456
+
+https://liliang.shksgyk.com/admin/decorationManage/themeShop
+liang.li@xshoppy.com   123456
+
+登录地址：https://mvp.shksgyk.com/admin
+登录邮箱：mvp@gmail.com
+登录密码：123456
+
+店铺名称：svip
+登录地址：https://svip.shksgyk.com/admin
+登录邮箱：svip@gmail.com.
+登录密码：123456
+
+release-202106011416 
+release-202106031342
+//测试环境
+https://mvp.shopcity.vip/admin/login
+
+https://xiyp_vip.emysale.com/admin/
+1130454808@qq.com
+123456
+
+https://zhaoss.shksgyk.com/admin/productList/edit?id=1780
+zhao.ss@jiahongnet.com
+123456
+
+https://zhaoss.emysale.com/admin/decorationManage
+zhao.ss@jiahongnet.com
+123456
+
+
+https://zhaoss.shksgyk.com/admin/productList/edit?id=1780
+zhao.ss@jiahongnet.com
+123456
+'email_by_coupon':  _this.orderInfor.shipping_email
+店铺账号
+yong.li@xshoppy.com
+li123456
+
+my-coupon?status=1
+
+shipping_city_id   城市id，没有则不传
+shipping_country_id   国家id
+shipping_province_id 省份id，没有则不传
+shipping_area_id   大区id，没有则不传

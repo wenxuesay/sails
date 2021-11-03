@@ -1,0 +1,41 @@
+http://localhost:3008/public/js/lib/index.js
+
+regex:(?insx)^https{0,1}://.+\/lib\/index\.js\.*
+
+git pull upstream test
+git pull upstream dev
+
+topic/263是26迭代第一阶段
+topic/beta261
+
+27迭代
+买家端
+  beta
+    271beta
+  test
+     27test1
+卖家端
+   beta
+      27beta3
+   test
+      test273
+
+下载pug
+npm i -D pug pug-html-loader pug-plain-loader
+# or
+yarn add pug pug-html-loader pug-plain-loader
+
+"@tinymce/tinymce-vue": "^1.1.0",
+"tinymce": "4.8.3",
+
+智付四方的“马上注册”：https://intellipay.com/support-2/
+了解更多支付方式：http://xshoppy.ewei.com/new/#/article/detail/366400
+
+
+
+
+
+
+
+
+

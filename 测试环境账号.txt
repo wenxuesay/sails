@@ -1,0 +1,191 @@
+np-ui-btn np-ui-subhead-title np-ui-secondary-btn J-BuyCart np-ui-disabled   禁用
+灰度查询接口get请求
+?json=NUAuBKEwLWFjTZGO
+测试环境查询接口get请求
+?json=1
+EM_ENV.language[EM_ENV.language.lang].max_inventory
+
+
+灰度环境
+https://goumai2.xshoppy.shop/admin/decoration?themeid=160538023&type=1&name=Kalamaria-general&publish=1
+1014857759@qq.com   123456
+
+https://wanjy520.xshoppy.shop/admin/settings/payicon
+wanjiayi270@gmail.com 123456
+
+https://aatest.xshoppy.shop/admin/login
+ huachun.ye@xshoppy.com  320333
+
+https://egrobale.xshoppy.shop/admin/applications/appHome
+zhanguo.wang@xshoppy.com/123456
+
+
+164491da09918417fbfd5ff37a074ffacf3d8d1b
+https://aa.shksgyk.com/admin/    huahcun.ye@xshoppy.com     320333
+
+灰度
+https://mrdong.xshoppy.shop/admin/applications/sizeChart
+
+开发环境
+18126400570@163.com
+Q123456
+
+https://zhaoss.xshoppy.top/admin/decorationManage
+zhao.ss@jiahongnet.com
+123456
+
+https://zhaoss.xshoppy.shop/admin/
+zhao.ss@jiahongnet.com
+123456
+
+买家端会员账号
+1243088683@qq.com
+123456
+
+
+测试环境
+https://maruidong.xshoppy.top/admin/applications/sizeChart
+https://yongli.xshoppy.top/admin/applications/appShop
+
+
+登录地址：https://xiyp.xshoppy.top/admin
+登录邮箱：1130454808@qq.com
+登录密码：123456
+
+18126523026@123.com
+登录地址  https://xiyp.xshoppy.shop/admin
+登录账户  1130454808@qq.com
+默认密码  Sailing0915
+
+https://maruidong.xshoppy.top/admin/
+登录邮箱：m13391644840@163.com
+登录密码：123456
+
+https://yesj02.jrtkqk.com/admin/login
+mvp@gmail.com
+123456
+
+店铺名称  hyd
+登录地址  https://hyd.jrtkqk.com/admin
+登录账户  12345678@qq.com
+默认密码  123456
+4242424242424242
+stripeBuyerCheckout
+
+灰度
+店铺名称  hyd
+登录地址  https://hyd.xshoppy.shop/admin
+登录账户  18126400570@163.com
+默认密码  qazwsx12340
+
+
+https://xshoppy.jrtkqk.com/admin/orderList  
+xshoppy@sail.com
+xshoppy
+
+
+灰度店铺
+https://xiyp.xshoppy.shop/admin/settings/mode_of_payment
+1130454808@qq.com
+123456
+
+
+
+await (async function autoRun(){
+  // 赌万米（最大套4层）
+  let coreCode = [{
+	"times": 10,
+	"command": [{
+	  "times": 2,
+	  "command": ["D", "2", "L", "D", "L", "4", "D", "6", "U", "L", "D", "R"]
+	}, "L", "D"]
+	}, {
+	"times": 2,
+	"command": ["U", "U", "8", "R"]
+	}, {
+	"times": 10,
+	"command": [{
+	  "times": 2,
+	  "command": ["D", "2", "R", "D", "R", "6", "D", "4", "U", "R", "D", "L"]
+	}, "R", "D"]
+	}, {
+	"times": 2,
+	"command": ["U", "U", "8", "L"]
+  }]
+  
+  // 你要改的地方 你要改的地方 你要改的地方
+  let loop = 4; // 外层循环次数
+  let uid = '40722467979290';// 你的uid
+  let authorization = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsInNvdXJjZSI6Imp1ZWppbiJ9.eyJleHBpcmVBdCI6MTYzODAwODUwNSwidXNlcklkIjoiNDA3MjI0Njc5NzkyOTAxNiIsImlhdCI6MTYzNTQxNjUwNSwiZXhwIjoxNjM4MDA4NTA1fQ.UCNh-Eu26Zfld2DTptHllBk5NxWu_nCzJSQFSKozDDMgsPRZY3H7IY59v9pGSizbvO9ROhTjlccr6ANzE0f6N83m635eFnroLP6Pkkj6APJfVOx6z444Au_c_Xf1Z1BLvOeL8bV8S09vvAu4mcG7WldEDpC3pkxo51Nlw8S6R01yhougAMJ2VEWEhdgfIsATGGh_3bx-3_SXUmJRhGHUZHnNBAJ6yJ4cj09uQ3u8yUFAGM6I4AKubFbEQ7DdOIA5SFs1GTu0rejYtORWgRLZfPhwDTpBR6MXSCjsTMDP0vqwcAZy4ifJtAM3Y8GP89NlTOMaVGDV55wCu-naDUjyGA'; // request headers中的authorization
+  let gameid = 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJnYW1lSWQiOiI2OjE5OjI4IFBNIiwiaWF0IjoxNjM1NDE2NTEwLCJleHAiOjE2MzgwMDg1MTB9.Giy5RSP6PTfpPK1Wfgvg31FnvWRVFw259LbuHeYc6lKOkXPUTl4Ar_WSY5PmyXBmxOm9sRaLgu1ZzglbWFRjrg'; // request headers中的x-tt-gameid
+  
+  
+  let params = {"command": []};
+  let linshiyinyong = params;
+  for (let i = 0;i<loop;i++){
+	  linshiyinyong['command'].push({"times": 10, "command": []});
+	  linshiyinyong = linshiyinyong.command[0];
+	  if (i >= loop-1) {
+		  linshiyinyong.command.push(...coreCode);
+	  }
+  }
+  linshiyinyong = null;
+  
+let datarus = await fetch('https://juejin-game.bytedance.com/game/sea1024/game/command?uid=40722467979290 + '&time=' + Date.parse(new Date()), {
+  method: 'POST',
+  credentials: "include",
+  headers: {
+	'Content-type': 'application/json; charset=UTF-8',
+	'authorization': authorization,
+	'accept': 'application/json, text/plain, */*',
+	'content-length': JSON.stringify(params).length,
+	'x-tt-gameid': gameid,
+  },
+  body: JSON.stringify(params)
+}).then(async (res) => {
+	return res.json();
+});
+
+return datarus;
+
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

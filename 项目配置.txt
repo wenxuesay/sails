@@ -1,0 +1,8 @@
+git需要配置
+[remote "upstream"]
+  url = git@gitlab.jhongnet.com:mall/seller-front.git
+  fetch = +refs/heads/*:refs/remotes/upstream/*
+
+
+本地host配置
+127.0.0.1      nicholas

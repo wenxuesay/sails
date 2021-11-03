@@ -1,0 +1,15 @@
+进入物流方案页面
+http://yapi.salinshop.com:3000/mock/487/logistics/logistics/detail
+
+
+编辑物流方案：获取单个国家的省市数据   编辑单个国家
+http://yapi.salinshop.com:3000/mock/487/logistics/logistics/country-area
+
+删除单个国家
+http://yapi.salinshop.com:3000/mock/487/logistics/logistics/del-country
+
+编辑物流方案：添加地区省份城市数据  单个国家
+http://yapi.salinshop.com:3000/mock/487/logistics/logistics/add-country
+
+添加国家
+http://yapi.salinshop.com:3000/mock/487/logistics/logistics/add-area

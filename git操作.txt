@@ -1,0 +1,117 @@
+git branch #列出**本地**所有的分支
+
+查看分支详细信息
+git branch -v #列出本地所有的分支, + hash 信息
+
+git checkout -b origin/zhanghanlun
+
+拉取
+git pull upstream dev
+git pull upstream test
+git pull upstream beta
+release-202105141519
+$('.J-GetBuyNowCoupon').attr('disabled', 'disabled').addClass('np-ui-btn-disabled')
+
+$('.J-GetCoupon').addClass('np-ui-disabled').attr("disabled", "disabled")
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+customize-product-btn
+    bottom: 40%;
+    z-index: 1;
+    padding: 13px 25px;
+    border-radius: 45px;
+    transform: translate(-50%, -50%);
+    display: none;
+
+formData.expresses.splice(index,1)
+101111120121819
+VALIDDATE
+CVV2
+J-discountCoupons
+getCardBin
+window.localStorage.getItem('checkout')
+
+
+1.银行卡和paypal都未绑定     只展示银行卡
+2.绑定银行卡但未绑定paypal  只展示银行卡和支付宝
+3.既绑定银行卡又绑定了paypal，三种都展示
+4.未绑定银行卡但是绑定了paypal   只展示银行卡和paypal
+
+
+toMsgCodeStep
+
+{% if product.size_chart.is_show == '1' %}
+                            <div class="sizeChart-tootip" style="background: #F5F5F5;padding: 11px;text-align: left;margin-bottom: 20px;"></div>
+                        {% endif %}
+<div class="icon"><img :src="scope.row.icon_url?scope.row.icon_url:'./img/defaultIcon.png'"></div>
+./../../../../../assets/img/
+edit?id=1286&act=编辑&status=自定义&logisticsId=5850
+$('.order-write-item .J-CreateOrder').hide();
+isStripe
+1000 0222 2222 3333
+10 33
+1212
+
+status  ： 1绑定    2.解绑
+auth_url
+
+VALIDDATE
+CVV2
+
+orderInfor.coupon_code
+buyerCheckout
+23UZNF
+release-202106241501
+推送
+git add .          (后面有一个点，意思是将你本地所有修改了的文件添加到暂存区)
+git commit -m"需要填写的信息"     (引号里面是你的介绍，就是你的这次的提交是什么内容，便于你以后查看，这个是将索引的当前内容与描述更改的用户和日志消息一起存储在新的提交中)
+git push origin topic/28dev
+
+git log退出方法
+输入字母q
+
+vscode地址 C:\Users\yadong.hu.SL\.vscode\extensions\manasxx.background-cover-2.2.4\out
+
+el-menu(default-active="2",class="el-menu-vertical-demo")
+        el-menu-item(v-for="(menusData,index) in menus",:index="index",:key="index")
+            <i class="el-icon-setting"></i>
+            <span slot="title">{{ menusData.meta }}</span>
+北京
+嘿嘿
+天津
+内蒙古
+啦啦啦
+吉林
+
+
+北京
+吉林
+黑龙江
+
+https://liyong.xshoppy.shop/admin
+
+
+
+
+// gulp file path 
+// Alen-gao data: 2018-09-04
+var urlSetting = require('./urlSetting')
+module.exports = {
+  proxyTable: urlSetting.createProxyTableOptions(),
+  download: 'http://aishujian.beta.seller-backend.jhongnet.com',
+  cdnPath: {
+    devTest: '/',     //测试环境
+    loc: '/',     //本地开发环境
+    dev: 'https://static.shopcity.vip/seller-front/',     //本地开发环境
+    deve: 'https://static.shopcity.vip/seller-front/',     //线上开发环境
+    // test: '//static1.jrtkqk.com/',     //测试环境
+    // build: '//static1.xshoppy.shop/',    //生产环境
+    // beta: '//static1.xshoppy.shop/beta/',     //预发环境
+    // gray: '//static1.xshoppy.shop/gray/'      //灰度环境
+    test: 'https://static.shksgyk.com/seller-front/',     //测试环境
+    build: '/',    //生产环境
+    beta: '/',     //预发环境
+    gray: '/'      //灰度环境
+  }
+}

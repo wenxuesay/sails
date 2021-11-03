@@ -1,0 +1,10 @@
+vue2.x	                   vue3
+beforeCreate	setup(replace)
+created	                setup(replace)
+beforeMount	onBeforeMount
+mounted	                onMounted
+beforeUpdate	onBeforeUpdate
+updated	                onUpdated
+beforeDestroy	onBeforeUnmount
+destroyed	                onUnmounted
+errorCaptured	onErrorCaptured

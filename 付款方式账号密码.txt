@@ -1,0 +1,318 @@
+  Xshoppy
+
+测试环境支付宝账号：ypskui0685@sandbox.com      111111
+
+一、信用卡账号
+
+1、钱海
+
+    1.1、测试环境--钱海收款账号：
+            account  ： 140105
+            terminal  ：14010528
+      secure_code  ：12345678
+
+    1.2、测试环境付款账号： 4111111111111111
+
+    1.3、正式环境收款账号①：
+            账号（Account）：  191586
+             终端号(terminal) ： 19158603
+            秘钥 secureCode ：  hx6vl244Jt4682R2Lj624j02f6zftlBh0P486zNL8v8j4626446XTxpj0Xv00Dd4
+                                        
+
+    1.4、正式环境收款账号②：
+            账号（Account）：  140105
+             终端号(terminal) ： 14010551
+            秘钥 secureCode ：  12345678
+
+2、AsiaBill 
+
+    2.1、测试环境收款账号①：
+            商户号（merNo） ：               10000
+            网关接入号（gatewayNo） ：  10000007
+            秘钥（sign key）   ：               12345678
+
+    2.2、测试环境收款账号②：
+            商户号（merNo） ：                 12184
+            网关接入号（gatewayNo） ：    12184001
+            秘钥（sign key）   ：                 12345678
+
+    2.3、测试环境收款账号③：（同步shipping信息时业务方给的账号）
+            商户号（merNo） ：                 12316
+            网关接入号（gatewayNo） ：    12316001
+            秘钥（sign key）   ：                 12345678
+
+    2.3、、测试环境付款账号： 4111111111111111 、  4711100000000000、 4000020951595032
+
+    2.4、线上环境收款账号①： （https://safepay.asiabill.com/Interface/V2）
+            商户号：10000
+            网关号：10000001
+            秘  钥 ：12345678
+
+    2.5、线上环境收款账号②： （https://safepay.asiabill.com/Interface/V2）
+            商户号：81998
+            网关号：81998002
+            秘  钥 ：6vnF0F2t
+
+
+3、Zzepay
+
+    3.1、测试环境收款账号：
+            merchant_id  ：1557899299
+              business_id  ：1557899299001
+        秘钥（sign key）： zZlNcuJyTtmEVRoh
+                           url  ：www.test.com
+                    clientID ：edfc70d2c56e439f4df918d92a9c426b2669b842a63e15644d890d23bd9a2af0
+                      secret  ：85e1a9dbdf705aee9a520ff792767b78897a934b15247217e30e0fa505333d9
+
+    3.2、测试环境付款账号：5204730000001011
+
+    3.3、正式环境收款账号：
+            merchant_id  ：1577691496
+              business_id  ：1577691496001
+        秘钥（sign key）： zk8Ev9TbKQGxXUwJ
+                           url  ：https://xiyouping.shop/
+                    clientID ：b29608585fbf4892d8ce505ddeec045fa1e32b04733c2e1594439f3a1af525b0
+                      secret  ：85e1a9dbdf705aee9a520ff792767b78897a934b15247217e30e0fa505333d9
+
+4、Intellipay
+
+    4.1、测试环境收款账号：（后台要设置成 澳门币  或数据库 currency_code 改成 MOP）
+            账号（Account Key ID） : 1c8euZY9lrJXU5hArIHA
+                客户端ID（Terminal） : 01EDN5B499863006
+                               秘钥（key） : 0ce6086311RLWaIzi36blize8fm06lI6arZvSChM
+
+
+5、pingpong pay
+
+    5.1、测试环境收款账号①：
+            账号（Account）: 2018092714313010016122
+           网关（gateway）：2018092714313010016
+                  秘钥（key）：F1BCE1DEB87F212625B690AD
+
+    5.2、测试环境收款账号②：
+            账号（Account）: 2018092714313010016291
+           网关（gateway）：2018092714313010016
+                  秘钥（key）：F78BC96A55548B2319EE68E0
+
+    5.3、测试环境付款账号：4111111111111111
+
+
+6、moonbapay （收货地址选新加坡）
+    6.1、测试环境收款账号：
+            账号（Account）：       1001
+            客户端ID（Terminal）：88001
+            秘钥（key）：             38ff2ec20bba40c1a140e59555a4160f
+
+    6.2、测试环境付款账号
+            /3d返回值
+            卡号 ： 4005550000000019
+            2d : 
+            卡号 ： 5105105105105100
+
+
+7、Pacypay
+
+    7.1、Pacypay接口文档：https://v2.pacypay.com/apireference
+ 
+    7.2、Pacypay测试商户信息（跳转支付）：
+             商户号（merchantNo）：21700
+           子商户号（subAccount）：21700001
+               商户key（SecretKey） ：s27EODbFmtm6S3g8RJ1H8u2g5g8F67
+ 
+    7.3、商户后台登入地址：https://sandbox-v2.pacypay.com/merchant/#/login
+            商户后台登入商户号：21700
+            商户后台登入用户名：Xshoppy
+             商户后台登入密码  ：1234qwer
+ 
+此商户为测试商户，仅仅只能用来测试交易，不能作为真实收款使用！
+ 
+    7.4、测试付款账号：4711 1000 0000 0000
+              卡号有效期 ：大于今天
+                        CVV : 任意3个数字（比如：123）
+               first name 和 last name ：任意英文字母
+
+    7.5、pacypay线上的商户号信息：
+            商户号：21682
+            子商户号：21682009
+            商户key：f1n552Q7Mb47xysrE347le3Y323980
+            生产请求地址：https://v2.pacypay.com/gateway/Interface
+
+
+8、Atomxpay 高博信用卡支付（原子支付）
+
+    8.1、测试网关：http://47.112.176.149:9381/payment-gate-web/gateway/wk/api/test/testPayment
+    8.2、正式网关：https://gateway.atomaxpay.com/payment/gateway/api/backTransReq
+
+    8.3、测试环境收款账号：
+            测试商户号： 800440050942370
+            测试终端号：1
+            测试终端号key(terNoSign)：ZWYwZGFlNjQ0YmY1NGY5MWI3MTcwOTBjYzRlOWZjNTg
+            秘钥（secret） : 18455c708f25d4486c3f2004a48fb7fe
+
+    8.4、测试环境付款账号：4242424242424242  、4111111111111111 322  2025/12
+
+    8.5、正式环境收款账号：
+
+            商户号:800640050942384
+            MD5 KEY:15f122d24982435dca212c9c94f16554
+            终端号:10000176
+            终端key:YmYwZDg4YmQ4YmNjNGQyODhkZjZhMmZlNTgwZTcwMzU
+ 
+            商户号:800640050942384
+            MD5 KEY:15f122d24982435dca212c9c94f16554
+            终端号:10000177
+            终端key:YzUwNDU0ODZkZjUzNDE4OWJmNzBlODQ1MDI2MTJmOTc
+
+9、Useepay
+
+    9.1、测试环境：
+        account：500000000007561
+        terminal：xiyouping.me
+        key:       ：YuUgiB1cyq1WfuVZuazCHWneRyn8960pJV5pLjLV15DAba28XcC96WEmFaSrQ35ZNx8ROlD4iTmppxphBFdRm5K1foZ1b0mVQBfF6IbZLmKRQBYFKIEUbW1AL2LmASrp
+
+        测试支付卡号:      4176661000001015
+
+
+    9.2、生产环境：
+        account：500000000010261
+        terminal：xiyp.xshoppy.shop
+        key：B901PV8ZlQFB1GVMtHdjbkBJZ13NSVcJbmrZBDayc2mOSFGFjar8oChOxAeg0UrPLm3PQGIRO38Ds41gH0DrKLMif8rtYhlWm2wkRSZr7jmnlbYye6H19gJEGlqXdAIM
+
+二、PayPal
+
+    1、测试环境个人收款账号：
+
+            Account ID ：SA7VDC9N5CW88
+            client id  :  AQATKqHtoGf-gI3OdS9LTygr0gHZnAONs7UtnqLIxCQemZEQDyJWEp0TowJblriZ9M-VSHQEmFIV_vrI
+            secret  :  EJxKAHWQGvzoMD6ydbfcbMXH2UHhnq4YQ99Xcvn7S9u2CZm1HoUSEQhgWOs_d7kKNpwhNbpcLn1OlPrd
+
+
+    1.1、产品提供的收款账号：
+   
+            Account ID ：sb-zavc8436000@personal.example.com
+            client id  :  ASIi2BiIQVlagFBHFpn_a3Sxo1cQudb_UehasxMx84bMfgMxkzzdVGDQB27B65fZ9bN218CISX4ADJF9
+            secret  : EArMH-tKOcKynXnbeIb6cavWwiovXhLtYmx-akxKuftmJpNTXzYSWE6wKApFDT1lwPfJFoV44MmIDHoa
+            邮箱：510118309@qq.com
+
+    1.2、测试环境企业收款账号：（https://developer.paypal.com/  、  1130454808@qq.com  、  Sailing0915 / Sailing1101
+
+            sb-klaqk3643767@business.example.com
+            Sailing1101
+
+    2、测试环境paypal付款白条账号：
+            ddd@189.cn
+            12345678
+
+    3、生产环境paypal付款账号：（个人收款账号，请勿使用！！！！！！！！！！！！！！！！！！！！！）
+            1130454808@qq.com
+            Sailing0915
+
+    4、测试环境企业收款账号：
+            123456789@gmail.com
+            Sailing1101
+
+测试paypal后台绑定账号 企业
+Oris_C2_B@126.com
+123123123
+
+三、线上付款信用卡号：（请使用较小金额进行付款！！！！！！！！！！！！！！！！！！！！！！！）
+
+线上信用卡支付
+交易金额： USD 50.00
+账号： 5329595911032151 （请使用较小金额进行付款！！！！！！！！！！！！！！！！！！！！！！！）
+到期日期： 06/21
+CVC2： 178
+持卡人姓名： ZG TECHNOLOGY CO LTD
+
+ 
+
+
+四、Beepay提现收款
+
+测试环境：
+账号：1119@beepay.work
+密码：Beepay123456
+地址：https://pre.msp.beefinx.com/#/login
+
+
+生产环境：
+生产地址：https://msp.beefinx.com/#/login
+用户名：demo@beefinx.com
+密码：123456Aa
+------------------------------------------------------------------------------
+
+五、各支付方式在数据库对应存值
+
+PayPal  ---- 2
+Ocean  ---- 3
+asiabill ---- 4
+zzepay ---- 5
+pingpongpay ---- 6
+moonbapay ---- 7
+Intellipay ---- 8
+asiabillLocal ---- 9
+atomxpay ---- 10
+pacypay ---- 11
+Intellipay本地支付 ---- 12
+useepay ---- 13
+
+
+
+
+六、测试环境店铺套餐付款支付宝号：
+支付宝账号：ypskui0685@sandbox.com
+密码：111111
+
+
+线上查看页面json数据：  json= NUAuBKEwLWFjTZGO
+
+
+
+
+-------------------------------------------
+
+emysale
+
+1、Asiabill
+ 
+    1.1、生产环境
+            商户号：10000
+            网关号：10000013
+            key值：12345678
+
+    1.2、生产环境:
+	MerNo：10000
+	GatewayNo：10000003
+	Signkey：12345678
+	Portal：https://portal.asiabill.com
+	Username：mertest2
+	Password：admin123
+
+    1.3、测试环境:（店铺域名需要备案）
+	MerNo：12318
+	GatewayNo：12318001
+	Signkey：12345678
+	Portal：https://merchant-sandbox.asiabill.com
+	Username：test
+	Password：admin123
+
+
+2、paypal
+
+2.1、生产环境个人收款账号：
+merchant id：Z4W6D7JP4NRPJ
+client id：ARgo89tTz3GCAVVMjnmieVJPUHWK1iEtSx3qhjyFw4T0Dih-GtPqXn9F8kXNI79rpUTBY3dehFm1rrfA
+client secret：EEPofy2IY_X9EKMBjMwARt1n4zrpdc27eno5cY0hxPAHKk0QLI1_Q4v_mK9Int8sXRiz73FZd1VTIkNs
+
+
+
+
+生产环境付款信用卡号：（请使用较小金额进行付款！！！！！！！！！！！！！！！！！！！！！！！）
+5592392692241874  01/23  166  ZG TECHNOLOGY CO. LIMITED USD Card
+
+
+
+
+
+
+
